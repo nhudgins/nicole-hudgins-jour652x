@@ -1,0 +1,55 @@
+/*styles for my resume*/
+
+BODY {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color:#444;
+  font-weight:400;
+}
+
+/*style for my name at the top*/
+h1 {
+  color:#33485e;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:3em;
+}
+
+/*style for my title*/
+strong {
+  color:#33485e;
+  text-transform:uppercase;
+  font-size:1.5em;
+}
+
+/*style for my resume section headings*/
+h2 {
+  font-size:1.5em;
+  text-transform:uppercase;
+  background-color:#33485e;
+  color:#ffffff;
+  font-weight:400;
+}
+
+/*style for my job titles*/
+h3 {
+  font-size:1.5em
+  font-weight:600;
+}
+
+/*style for my job organizations*/
+h4 {
+  font-weight:400;
+  font-size:1.5em
+}
+
+/*style for job dates*/
+h5 {
+  font-weight:400;
+  font-size:1em;
+  font-style:italic;
+}
+
+/*style for bulleted list items*/
+li {
+  font-size:1em
+}
