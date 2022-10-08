@@ -31,6 +31,14 @@ BODY {
   margin-right:0px
 }
 
+/*style for contact info - should be inline*/
+.menu {
+  margin:10px;
+  padding:0px;
+  text-align:center;
+  display:inline;
+}
+
 /*style for my resume section headings*/
 .sectionheader {
   font-size:1.5em;
@@ -75,13 +83,6 @@ BODY {
   margin-bottom:10px;
   margin-left:0px;
   margin-right:0px;
-}
-
-.menu {
-  margin:10px;
-  padding:0px;
-  text-align:center;
-  display:inline;
 }
 
 #degrees {
