@@ -36,6 +36,9 @@ BODY {
   margin:10px;
   padding:0px;
   text-align:center;
+}
+
+.menu li {
   display:inline;
 }
 
