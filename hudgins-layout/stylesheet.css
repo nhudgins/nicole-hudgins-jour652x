@@ -9,9 +9,10 @@ BODY {
   font-weight:400;
 }
 
-#masthead {
+.masthead {
   color:#33485e;
   text-transform:uppercase;
+  font-family:Copperplate, Ariel;
   text-align:center;
   font-size:3em;
   border-bottom:1px solid #33485e;
@@ -20,9 +21,10 @@ BODY {
   margin: 0 auto;
 }
 
-#slogan {
+.slogan {
   color:#33485e;
   text-transform:uppercase;
+  font-family:Copperplate, Ariel;
   font-size:1.5em;
   font-weight:600;
   text-align:center;
