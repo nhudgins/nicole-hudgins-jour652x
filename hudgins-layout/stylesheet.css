@@ -9,10 +9,9 @@ BODY {
   font-weight:400;
 }
 
-.masthead {
-  color:#33485e;
+#masthead {
+  color:black;
   text-transform:uppercase;
-  font-family:Copperplate, Ariel;
   text-align:center;
   font-size:3em;
   border-bottom:1px solid #33485e;
@@ -21,10 +20,9 @@ BODY {
   margin: 0 auto;
 }
 
-.slogan {
-  color:#33485e;
+#slogan {
+  color:black;
   text-transform:uppercase;
-  font-family:Copperplate, Ariel;
   font-size:1.5em;
   font-weight:600;
   text-align:center;
@@ -32,4 +30,10 @@ BODY {
   margin-bottom:0px;
   margin-left:0px;
   margin-right:0px
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
 }
