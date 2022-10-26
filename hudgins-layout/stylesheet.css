@@ -48,6 +48,8 @@ font-style: italic;
 .article-text {
   font-family:Georgia, serif;
   font-size:13px;
+  line-height: 25px;
+
 }
 
 img {
@@ -55,11 +57,38 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  margin-top: 50px;
 }
+
+.photo {
+
+}
+
+.pquote {
+      width:200px;
+      margin:0 15px 3px 0;
+      padding:5px 0 5px 0;
+      border-top:3px double #999;
+      border-bottom:3px double #999;
+      font-size:20px;
+      line-height:17px;
+      font-family:Georgia, serif;
+      font-style:italic;
+      text-align:center;
+      float:left;
+       }
+
+blockquote {
+    margin: 0;
+  }
 
 h6 {
   font-family:Georgia, serif;
   font-size: 13px;
   text-align:center;
   margin-top: 5px;
+}
+
+#bottom-paragraph {
+  margin-bottom: 100px;
 }
