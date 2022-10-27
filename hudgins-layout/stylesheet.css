@@ -65,10 +65,17 @@ img {
 }
 
 #GIF {
-  margin-top:5px;
-  margin-bottom:5px;
+  margin-top:0px;
+  margin-bottom:0px;
 }
 
+#GIF-caption {
+  margin-top: 0px
+}
+
+ {
+
+}
 
 .pquote {
       width:200px;
@@ -98,5 +105,19 @@ h6 {
 }
 
 #bottom-paragraph {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+#last-thing {
+  color:crimson;
+}
+
+.hyperlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listlink {
+  color: solid gray;
 }
