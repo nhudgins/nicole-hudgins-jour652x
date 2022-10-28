@@ -73,10 +73,6 @@ img {
   margin-top: 0px
 }
 
- {
-
-}
-
 .pquote {
       width:200px;
       margin:0 15px 3px 0;
@@ -116,6 +112,7 @@ h6 {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  color:red;
 }
 
 .listlink {
