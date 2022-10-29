@@ -8,6 +8,11 @@ BODY {
   padding-bottom: 10px
 }
 
+h1 {
+  font-family: Tahoma, serif, Arial, serif;
+  font-size: 30px;
+}
+
 h2 {
   color: orchid;
   font-size: 25px;
