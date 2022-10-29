@@ -15,18 +15,10 @@ BODY {
   width: 900px;
 }
 
-/* Can't figure out how to increase padding between paragraphs :( */)
-p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .article-text {
-  line-height: 20px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 h1 {
@@ -47,7 +39,7 @@ h2 {
 
 h6 {
     margin-top: 0;
-    font-weight: 50;
+    font-weight: 100;
 }
 
 .byline {
@@ -59,6 +51,10 @@ h6 {
   text-align:center;
   margin-bottom: 100px;
   width: 100%;
+  border-style: solid;
+  border-width: 20px;
+  border-color: red;
+  border-style: double;
 }
 
 /* Why won't css let me color the hyperlinks black?? */
@@ -77,7 +73,7 @@ h6 {
 }
 
 .pquote {
-    width:650px;
+    width:900px;
     margin:0 15px 3px 0;
     padding:5px 0 5px 0;
     border-top:5px double black;
@@ -101,17 +97,17 @@ blockquote {
 /* Why won't css let me create img borders?? */
 img {
   position: relative;
-  border-width: 1px;
-  border-color: black;
-
 }
 
 /* Why won't css let me create img borders?? */
 .photo {
-  position: relative;
-  border-width: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 50px;
+  border-width: 3px;
   border-color: black;
-
 }
 
 a {
@@ -121,8 +117,11 @@ a {
 }
 
 .hero-image {
-  border: 1px black;
   width: 100%;
+  border-style: solid;
+  border-width: 50px;
+  border-color: red;
+
 }
 
 .hero-text {
@@ -131,7 +130,8 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family:Tahoma, Arial;
-  font-size: 3em;
+  font-size: 5em;
+  letter-spacing: 1px;
   font-weight:bold;
   color: black;
   -webkit-text-stroke: 2px red;
