@@ -6,16 +6,27 @@ BODY {
 }
 
 .column {
-    max-width: 800px;
-    margin-left: 300px;
-    margin-right: 300px;
-    flex-direction: column;
+  /*max-width: 800px; */
+  /*margin-left: 300px;*/
+  /*margin-left: 300px;*/
+  /*margin-right: 300px;*/
+  /*flex-direction: column;*/
+  margin: 0 auto;
+  width: 900px;
+}
 
+/* Can't figure out how to increase padding between paragraphs :( */)
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .article-text {
   line-height: 20px;
-  padding-bottom: 10px
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 h1 {
@@ -66,26 +77,25 @@ h6 {
 }
 
 .pquote {
-      width:650px;
-      margin:0 15px 3px 0;
-      padding:5px 0 5px 0;
-      border-top:5px double black;
-      border-bottom:5px double black;
-      font-size:25px;
-      font-weight: bold;
-      -webkit-text-stroke: 1px red;
-      line-height:30px;
-      font-family:Tahoma, serif, Arial, serif;
-      font-style:bold;
-      text-align:justify;
-      float:center;
-      border-color: black;
-       }
+    width:650px;
+    margin:0 15px 3px 0;
+    padding:5px 0 5px 0;
+    border-top:5px double black;
+    border-bottom:5px double black;
+    font-size:25px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px red;
+    line-height:30px;
+    font-family:Tahoma, serif, Arial, serif;
+    font-style:bold;
+    text-align:justify;
+    float:center;
+    border-color: black;
+  }
 
 blockquote {
     margin: 0;
     color: #0000cd;
-
   }
 
 /* Why won't css let me create img borders?? */
@@ -93,6 +103,7 @@ img {
   position: relative;
   border-width: 1px;
   border-color: black;
+
 }
 
 /* Why won't css let me create img borders?? */
@@ -100,6 +111,7 @@ img {
   position: relative;
   border-width: 1px;
   border-color: black;
+
 }
 
 a {
