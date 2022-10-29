@@ -37,6 +37,7 @@ BODY {
 
 #hero {
   width: 100%;
+  border: 7px solid gray;
 }
 
 #byline {
