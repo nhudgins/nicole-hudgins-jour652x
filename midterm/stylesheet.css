@@ -50,6 +50,7 @@ h6 {
   width: 100%;
 }
 
+/* Why won't css let me color the hyperlinks black?? */
 .hyperlinks {
   list-style-type: none;
   margin: 0;
@@ -64,12 +65,37 @@ h6 {
   text-decoration: none;
 }
 
+.pquote {
+      width:650px;
+      margin:0 15px 3px 0;
+      padding:5px 0 5px 0;
+      border-top:5px double black;
+      border-bottom:5px double black;
+      font-size:25px;
+      font-weight: bold;
+      -webkit-text-stroke: 1px red;
+      line-height:30px;
+      font-family:Tahoma, serif, Arial, serif;
+      font-style:bold;
+      text-align:justify;
+      float:center;
+      border-color: black;
+       }
+
+blockquote {
+    margin: 0;
+    color: #0000cd;
+
+  }
+
+/* Why won't css let me create img borders?? */
 img {
   position: relative;
   text-align: center;
   border: 1px black;
 }
 
+/* Why won't css let me create img borders?? */
 .photo {
   border: 1px black;
 }
