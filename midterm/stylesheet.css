@@ -91,13 +91,15 @@ blockquote {
 /* Why won't css let me create img borders?? */
 img {
   position: relative;
-  text-align: center;
-  border: 1px black;
+  border-width: 1px;
+  border-color: black;
 }
 
 /* Why won't css let me create img borders?? */
 .photo {
-  border: 1px black;
+  position: relative;
+  border-width: 1px;
+  border-color: black;
 }
 
 a {
