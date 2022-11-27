@@ -19,7 +19,7 @@ padding-bottom: 40px;
 
 #byline {
   font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Merriweather', serif;
 }
 
 #first-subhead {
@@ -78,6 +78,7 @@ footer {
   color: #fff;
   margin: 0 auto;
   font-weight: 700;
+  text-align:center;
 }
 
 .red {
@@ -90,6 +91,35 @@ footer {
   width: 100%;
   background-color: chocolate;
   opacity: .7;
+}
 
+/* Pull Quote */
+.quote {
+  font-family: 'Merriweather', serif;
+  color: chocolate;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: left;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid darkslategray;
+  border-bottom: 1px solid darkslategray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.quote-attribution {
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  font-weight: 100;
+  text-align: left;
+  color: chocolate;
+}
+/* End Quote */
+
+/* Media Queries */
+@media (max-width:700px) {
+
+  .hero-head {
+    font-size: 1.5em;
+  }
 }
