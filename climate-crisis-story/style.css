@@ -15,6 +15,11 @@ padding-bottom: 40px;
 
 .hero-image {
   margin-bottom: 50px;
+  margin-top: 0;
+}
+
+span {
+  text-align: center;
 }
 
 #byline {
@@ -46,7 +51,7 @@ p {
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 450;
 }
 
 .caption {
@@ -78,11 +83,14 @@ footer {
   color: #fff;
   margin: 0 auto;
   font-weight: 700;
-  text-align:center;
 }
 
 .red {
   color: #f23030;
+}
+
+a {
+  text-align: center;
 }
 
 .overlay {
