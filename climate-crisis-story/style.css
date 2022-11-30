@@ -144,5 +144,12 @@ a {
 }
 
 #datawrapper-chart-Y5wPV {
-  border: 2px solid black;
+  border: 2px
+  border-color: solid black;
+}
+
+.text-box {
+  border: 2px;
+  border-color: chocolate;
+  padding: 10px;
 }
