@@ -55,7 +55,7 @@ p {
 }
 
 .caption {
-  font-family: Georgia, serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-style: italic;
 }
@@ -110,17 +110,18 @@ a {
   text-align: left;
   padding: 15px 0 15px 0;
   border-top: 1px solid darkslategray;
-  border-bottom: 1px solid darkslategray;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .quote-attribution {
   font-size: 30px;
   font-family: 'Merriweather', serif;
-  font-weight: 100;
+  font-weight: 200;
   text-align: left;
   color: chocolate;
+  border-bottom: 1px solid darkslategray;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 /* End Quote */
 
@@ -130,4 +131,18 @@ a {
   .hero-head {
     font-size: 1.5em;
   }
+
+#photo-pair {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+#datawrapper-chart-ryKWr {
+  margin-top: 400px;
+  margin-bottom: 400px;
+}
+
+#datawrapper-chart-Y5wPV {
+  border: 2px solid black;
 }
