@@ -19,8 +19,10 @@ padding-bottom: 40px;
 }
 
 #byline {
-  font-size: 1em;
+  font-size: 1.5em;
   font-family:'Merriweather', serif;
+  margin-bottom: 25px;
+  margin-left: 70px;
 }
 
 #first-subhead {
@@ -31,22 +33,25 @@ h2 {
     font-family: 'Merriweather', serif;
     font-size: 45px;
     margin-bottom: 50px;
+    margin-left: 70px;
 }
 
 h3 {
   font-family: 'Merriweather', serif;
   font-size: 1.5em;
   font-weight: 700;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 70px;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
-  line-height: 150%;
-  font-size: 1em;
-  font-weight: 450;
+  line-height: 125%;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .caption {
@@ -101,12 +106,25 @@ a {
 .quote {
   font-family: 'Merriweather', serif;
   color: chocolate;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 700;
   text-align: left;
   padding: 15px 0 15px 0;
   border-top: 1px solid darkslategray;
   margin-top: 20px;
+}
+
+#no-attr {
+  font-family: 'Merriweather', serif;
+  color: chocolate;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid darkslategray;
+  border-bottom: 1px solid darkslategray;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .quote-attribution {
@@ -131,17 +149,20 @@ a {
 #datawrapper-chart-ryKWr {
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 50px;
 }
 
 #datawrapper-chart-Y5wPV {
   border: 2px
   border-color: solid black;
   margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 30px;
 }
 
 .text-box {
   border: 2px;
   border-color: solid chocolate;
   padding: 10px;
-  margin: 20px 5em 20px 5em;
+  margin: 20px 5em 5px 5em;
 }
