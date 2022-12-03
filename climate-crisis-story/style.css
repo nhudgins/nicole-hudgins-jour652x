@@ -56,7 +56,7 @@ p {
 
 .caption {
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-size: .9em;
   font-style: italic;
 }
 
@@ -128,15 +128,9 @@ a {
 /* Media Queries */
 @media (max-width:700px) {
 
-  .hero-head {
+.hero-head {
     font-size: 1.5em;
   }
-
-#photo-pair {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
 
 #datawrapper-chart-ryKWr {
   margin-top: 400px;
