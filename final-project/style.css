@@ -30,8 +30,8 @@ a:hover {color: #ffd700;}
 #where {
   color: crimson;
   padding-top: 25px;
+  margin-left: 0px;
 }
-
 
 .center {
   display: block;
@@ -44,13 +44,25 @@ a:hover {color: #ffd700;}
 h1 {
   font-family: 'Tahoma', sans-serif;
   font-weight: 900;
-  font-size: 2.75em;
-  padding-top: 20px;
+  font-size: 3em;
+  padding-top: 10px;
   padding-bottom: 40px;
+  margin-left: 30px;
+
+}
+
+h4 {
+  margin-top: 35px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 #byline {
   padding-bottom: 30px;
+}
+
+#landscape {
+  margin-top: 40px;
 }
 
 .caption {
@@ -58,18 +70,32 @@ h1 {
   font-size: .9em;
   font-style: italic;
   margin-left: auto;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 p {
   font-family: 'Georgia', serif;
   font-size: 1em;
+  font-weight: 500;
+  margin-left: 6em;
+  margin-right: 6em;
+  text-align: justify;
+}
+
+#under-timeline {
+  margin-top: 35px;
 }
 
 #datawrapper-chart-n94N9 {
   margin-bottom: 40px;
 }
 
+#map {
+  border-width: 1px;
+  border-color: black;
+}
+
 #datawrapper-chart-FXv8u {
+  margin-top: 40px;
   margin-bottom: 40px;
 }
