@@ -27,6 +27,23 @@ a:hover {color: #ffd700;}
     width: 100%;
 }
 
+.hero-caption {
+  font-family: 'Georgia', serif;
+  font-size: .9em;
+  font-style: italic;
+  text-align: left
+}
+
+.overlay {
+  position: absolute;
+  top: 90%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4169e1;
+  opacity: .7;
+}
+
 #where {
   color: crimson;
   padding-top: 25px;
@@ -63,6 +80,11 @@ h4 {
 
 #landscape {
   margin-top: 40px;
+  position: relative;
+  left: 40px;
+  border-color: darkgreen;
+  border-width: 5px;
+  border-style: solid;
 }
 
 .caption {
@@ -71,6 +93,14 @@ h4 {
   font-style: italic;
   margin-left: auto;
   margin-bottom: 40px;
+}
+
+#light-traffic {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-family: 'Georgia', serif;
+  font-size: .9em;
+  font-style: italic;
 }
 
 p {
